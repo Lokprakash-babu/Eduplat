@@ -1,0 +1,32 @@
+.course{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    margin-top: 6rem;
+    flex-flow: column;
+    text-align: center;
+}
+
+.thumbNail{
+    width: 20%;
+    height: 100%;
+}
+
+.courseTitle, .courseLength{
+    text-align: center;
+    width: max-content;
+    height: max-content;
+}
+.cardItem{
+    width: fit-content;
+    height: fit-content;
+    margin-left: 30px;
+}
+
+.cardContainer{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 20px;
+}

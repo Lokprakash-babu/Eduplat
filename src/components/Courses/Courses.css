@@ -1,0 +1,24 @@
+.searchBar{
+    position: relative;
+    width: 60%;
+    height: 67%;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.searchContainer{
+    height: 4rem;
+    background-color: rgb(26, 26, 114);
+    position: relative;
+
+}
+
+.searchInput{
+    border: 2px solid lightgray;
+}
+
+.courseVideo{
+    width: 20%;
+    height: 20%;
+}

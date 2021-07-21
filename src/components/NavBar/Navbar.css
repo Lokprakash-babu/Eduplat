@@ -1,0 +1,88 @@
+.navBar{
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+    background-color: rgb(26, 26, 114);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100%;
+    width: 20%;
+    justify-content: center;
+}
+.contents{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: auto;
+}
+.content{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+
+.breadCrumb{
+    display: none;
+
+}
+
+.breadCrumb-content{
+    display: block;
+    background-color: rgb(26, 26, 114);
+    color: white;
+    text-align: center;
+    height: 7rem;
+}
+.breadCrumb-menu{
+    width:100%;
+    height: max-content;
+    cursor: pointer;
+}
+
+.content-2, .content-3{
+    margin-top: 10px;
+}
+.lineContainer{
+    width: 100%;
+    height: 100%;
+    margin-top: 2.2rem;
+}
+
+.line{
+    width: 41%;
+    height: 3%;
+    background-color: white;
+    margin-top: 2%;
+}
+.line1, .line2, .line3{
+    margin-top: 3px;
+}
+p{
+    all: unset;
+}
+
+@media screen and (max-width: 800px) {
+    .contents {
+      display: none;
+    }
+    .breadCrumb{
+        cursor: pointer;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        width: 10%;
+    }
+
+
+  }

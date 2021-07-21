@@ -45,8 +45,7 @@ const Navbar = (props) => {
             </nav>
             { options.breadCrumb && (<div className = "breadCrumb-content">
                 <div className="breadCrumb-menu content-1">About</div>
-                <div className="breadCrumb-menu content-2" onClick={toggleLogin}>Login</div>
-                <div className="breadCrumb-menu content-3" onClick={toggleSignUp}>Sign up</div>
+                <div className="breadCrumb-menu content-2" onClick={toDashBoard}>Learn with Us</div>
             </div>)}
             {
                 options.login && <Login toggleLogin={toggleLogin} showSignUp={showSignUp}/> 
